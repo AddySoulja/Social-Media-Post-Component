@@ -9,8 +9,8 @@ html, body {
 }
 
 #post {
-  height: 790px;
-  width: 500px;
+  height: 590px;
+  width: 300px;
   border-radius: 16px;
   background-color: #FCFCFC;
   position: relative;
@@ -24,7 +24,7 @@ html, body {
 #post-comment,
 .comment-wrapper, 
 #post-image{
-    width: 500px;
+    width: 300px;
     background-color: #FFFFFF;
 }
 
@@ -40,18 +40,18 @@ background-image: url("profile-image.png");
 width: 48px;
 height: 48px;
 left: 24px;
-top: 16px;
+top: 19px;
 border-radius: 100px;
 }
 
 #post-image {
-    height: 500px;
+    height: 300px;
     top: 122px;
 }
 
 #post-main {    
-  height: 500px;
-  width: 500px;
+  height: 300px;
+  width: 300px;
   top: 122px;
   position: absolute;
   box-shadow: 2px 4px 32px 0px #00000029;
@@ -61,7 +61,7 @@ border-radius: 100px;
     position: absolute;
     height: 48px;
     left: 0px;
-    top: 622px;
+    top: 422px;
     box-shadow: 2px 4px 32px 0px #00000029;
 }
 
@@ -94,7 +94,7 @@ border-radius: 100px;
   position: absolute;
   width: 158px;
   height: 14px;
-  left: 329px;
+  left: 139px;
   top: 13.8px;
   font-family: 'Inter';
   font-style: normal;
@@ -109,10 +109,10 @@ border-radius: 100px;
   display: flex;
   align-items: center;
   justify-content: space-around;
-  width: 500px;
+  width: 300px;
   height: 56px;
   left: 0px;
-  top: 670px;
+  top: 470px;
   border-radius: 0px 0px 16px 16px;
 }
 
@@ -132,7 +132,7 @@ border-radius: 100px;
   position: absolute;
   width: 68px;
   height: 32px;
-  left: 42px;
+  left: 20px;
   top: 12px;
 }
 
@@ -145,7 +145,7 @@ border-radius: 100px;
   position: absolute;
   width: 108px;
   height: 32px;
-  left: 190px;
+  left: 105px;
   top: 12px;
 }
 
@@ -158,7 +158,7 @@ border-radius: 100px;
   position: absolute;
   width: 80px;
   height: 32px;
-  left: 378px;
+  left: 215px;
   top: 12px;
 }
 
@@ -233,18 +233,18 @@ input::placeholder{
   position: absolute;
   width: 36px;
   height: 36px;
-  left: 12px;
-  top: 12px;
+  left: 8px;
+  top: 10px;
   background: url("profile-image.png");
   border-radius: 100px;
 }
 
 #post-comment {
   position: absolute;
-  width: 500px;
+  width: 300px;
   height: 56px;
   left: 0px;
-  top: 726px;
+  top: 526px;
   background-color: #FCFCFC;
 
   box-shadow: 2px 4px 32px 0px #00000029;
@@ -254,9 +254,9 @@ input::placeholder{
 .comment-wrapper {
   
   position: absolute;
-  width: 500px;
+  width: 300px;
   left: 0px;
-  top: 780px;
+  top: 580px;
   padding-bottom: 16px;
   display: flex;
   flex-direction: column;
@@ -348,10 +348,10 @@ input::placeholder{
   align-items: center;
   gap: 8px;
   position: absolute;
-  width: 86px;
-  height: 26px;
-  left: 390px;
-  top: 32px;
+  width: 70px;
+  height: 20px;
+  left: 220px;
+  top: 12px;
   background: #1151B8;
   border-radius: 100px;
 }
@@ -408,14 +408,14 @@ span:hover {
   justify-content: space-around;
   align-items: center;
   text-align: center;
-  padding: 4px 32px;
+  padding: 16px 10px;
   gap: 8px;
 
   position: absolute;
-  width: 121px;
-  height: 32px;
-  left: 369px;
-  top: 12px;
+  width: auto;
+  height: 30px;
+  left: 247px;
+  top: 11px;
 
   background: #1151B8;
   border-radius: 100px;
@@ -458,7 +458,7 @@ span:hover {
   display: flex;
   align-items: center;
   gap: 8px;
-  padding-left: 35px;
+  padding-left: 25px;
 }
 
 .likes-text {
@@ -480,10 +480,10 @@ span:hover {
 .comment-input{
   box-sizing: border-box;
   position: absolute;
-  width: 304px;
+  width: 204px;
   height: 36px;
-  left: 56px;
-  top: 12px;
+  left: 47px;
+  top: 10px;
   background: #FFFFFF;
   border: 1px solid #DFDFDF;
   border-radius: 100px;
