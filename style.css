@@ -1,7 +1,7 @@
 html, body {
   width: 100vw;
   margin: 0;
-  padding: 65px 0;
+  padding: 25px 0;
   display: flex;
   justify-content: center;
   font-family: "Inter";
@@ -9,7 +9,7 @@ html, body {
 }
 
 #post {
-  height: 590px;
+  height: 550px;
   width: 300px;
   border-radius: 16px;
   background-color: #FCFCFC;
@@ -39,7 +39,7 @@ html, body {
 background-image: url("profile-image.png");
 width: 48px;
 height: 48px;
-left: 24px;
+left: 14px;
 top: 19px;
 border-radius: 100px;
 }
@@ -59,7 +59,7 @@ border-radius: 100px;
 
 #post-details {
     position: absolute;
-    height: 48px;
+    height: 36px;
     left: 0px;
     top: 422px;
     box-shadow: 2px 4px 32px 0px #00000029;
@@ -85,7 +85,7 @@ border-radius: 100px;
   font-family: 'Inter';
   font-style: normal;
   font-weight: 600;
-  font-size: 12px;
+  font-size: 10px;
   line-height: 120%;
   color: #8D8D8D;
 }
@@ -94,12 +94,12 @@ border-radius: 100px;
   position: absolute;
   width: 158px;
   height: 14px;
-  left: 139px;
+  left: 165px;
   top: 13.8px;
   font-family: 'Inter';
   font-style: normal;
   font-weight: 600;
-  font-size: 12px;
+  font-size: 10px;
   line-height: 120%;
   color: #8D8D8D;
 }
@@ -110,14 +110,14 @@ border-radius: 100px;
   align-items: center;
   justify-content: space-around;
   width: 300px;
-  height: 56px;
+  height: 36px;
   left: 0px;
-  top: 470px;
+  top: 458px;
   border-radius: 0px 0px 16px 16px;
 }
 
 #like, #comment, #share {
-  height: 56px;
+  height: 36px;
   width: 100%;
   cursor:pointer;
   border-radius: 16px;
@@ -133,7 +133,7 @@ border-radius: 100px;
   width: 68px;
   height: 32px;
   left: 20px;
-  top: 12px;
+  top: 2px;
 }
 
 #comment-frame {
@@ -145,8 +145,8 @@ border-radius: 100px;
   position: absolute;
   width: 108px;
   height: 32px;
-  left: 105px;
-  top: 12px;
+  left: 110px;
+  top: 2px;
 }
 
 #share-frame {
@@ -159,7 +159,7 @@ border-radius: 100px;
   width: 80px;
   height: 32px;
   left: 215px;
-  top: 12px;
+  top: 2px;
 }
 
 #like-text {
@@ -168,7 +168,7 @@ border-radius: 100px;
   font-family: 'Inter';
   font-style: normal;
   font-weight: 700;
-  font-size: 14px;
+  font-size: 12px;
   line-height: 120%;
   color: #2B2B2B;
   flex: none;
@@ -182,7 +182,7 @@ border-radius: 100px;
   font-family: 'Inter';
   font-style: normal;
   font-weight: 700;
-  font-size: 14px;
+  font-size: 12px;
   line-height: 120%;
   color: #2B2B2B;
   order: 1;
@@ -197,7 +197,7 @@ input{
 }
 
 input::placeholder{
-  font-size: 14px;
+  font-size: 13px;
 }
 
 #share-text {
@@ -206,7 +206,7 @@ input::placeholder{
   font-family: 'Inter';
   font-style: normal;
   font-weight: 700;
-  font-size: 14px;
+  font-size: 12px;
   line-height: 120%;
   color: #2B2B2B;
   flex: none;
@@ -244,7 +244,7 @@ input::placeholder{
   width: 300px;
   height: 56px;
   left: 0px;
-  top: 526px;
+  top: 494px;
   background-color: #FCFCFC;
 
   box-shadow: 2px 4px 32px 0px #00000029;
@@ -256,7 +256,7 @@ input::placeholder{
   position: absolute;
   width: 300px;
   left: 0px;
-  top: 580px;
+  top: 550px;
   padding-bottom: 16px;
   display: flex;
   flex-direction: column;
@@ -268,7 +268,7 @@ input::placeholder{
   position: absolute;
   width: 79px;
   height: 17px;
-  left: 80px;
+  left: 68px;
   top: 16px;
   font-style: normal;
   font-weight: 700;
@@ -281,7 +281,7 @@ input::placeholder{
   position: absolute;
   width: 148px;
   height: 14px;
-  left: 80px;
+  left: 69px;
   top: 37px;
   font-family: 'Inter';
   font-style: normal;
@@ -295,7 +295,7 @@ input::placeholder{
   position: absolute;
   width: 50px;
   height: 12px;
-  left: 80px;
+  left: 69px;
   top: 55px;
   font-family: 'Inter';
   font-style: normal;
@@ -309,7 +309,7 @@ input::placeholder{
   position: absolute;
   width: 260px;
   height: 14px;
-  left: 24px;
+  left: 14px;
   top: 79px;
   
   font-family: 'Inter';
@@ -326,7 +326,7 @@ input::placeholder{
   position: absolute;
   width: 58px;
   height: 14px;
-  left: 24px;
+  left: 14px;
   top: 97px;
   
   font-family: 'Inter';
