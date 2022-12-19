@@ -1,0 +1,490 @@
+html, body {
+  margin: 0;
+  padding: 65px 0;
+  display: flex;
+  justify-content: center;
+  font-family: "Inter";
+  height: 110%;
+}
+
+#post {
+  height: 790px;
+  width: 500px;
+  border-radius: 16px;
+  background-color: #FCFCFC;
+  position: relative;
+  box-shadow: 2px 4px 32px 0px #00000029;
+}
+
+#post-header, 
+#post-main, 
+#post-details, 
+#like-comment-share, 
+#post-comment,
+.comment-wrapper, 
+#post-image{
+    width: 500px;
+    background-color: #FFFFFF;
+}
+
+#post-header {
+    height: 122px;
+    box-shadow: 2px 4px 32px 0px #00000029;
+    border-radius: 16px 16px 0 0;
+}
+
+#post-user-img{
+  position: absolute;
+background-image: url("/profile-image.png");
+width: 48px;
+height: 48px;
+left: 24px;
+top: 16px;
+border-radius: 100px;
+}
+
+#post-image {
+    height: 500px;
+    top: 122px;
+}
+
+#post-main {    
+  height: 500px;
+  width: 500px;
+  top: 122px;
+  position: absolute;
+  box-shadow: 2px 4px 32px 0px #00000029;
+}
+
+#post-details {
+    position: absolute;
+    height: 48px;
+    left: 0px;
+    top: 622px;
+    box-shadow: 2px 4px 32px 0px #00000029;
+}
+
+#heart-post-details {
+  position: absolute;
+  width: 22px;
+  height: 22px;
+  left: 13px;
+  top: 13px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#liked-by {
+  position: absolute;
+  width: 113px;
+  height: 14px;
+  left: 42px;
+  top: 13.8px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 120%;
+  color: #8D8D8D;
+}
+
+#comments-and-shares {
+  position: absolute;
+  width: 158px;
+  height: 14px;
+  left: 329px;
+  top: 13.8px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 120%;
+  color: #8D8D8D;
+}
+
+#like-comment-share {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 500px;
+  height: 56px;
+  left: 0px;
+  top: 670px;
+  border-radius: 0px 0px 16px 16px;
+}
+
+#like, #comment, #share {
+  height: 56px;
+  width: 100%;
+  cursor:pointer;
+  border-radius: 16px;
+}
+
+#like-frame {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 8px;
+  position: absolute;
+  width: 68px;
+  height: 32px;
+  left: 42px;
+  top: 12px;
+}
+
+#comment-frame {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 8px;
+  position: absolute;
+  width: 108px;
+  height: 32px;
+  left: 190px;
+  top: 12px;
+}
+
+#share-frame {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 8px;
+  position: absolute;
+  width: 80px;
+  height: 32px;
+  left: 378px;
+  top: 12px;
+}
+
+#like-text {
+  width: 28px;
+  height: 17px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 120%;
+  color: #2B2B2B;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+#comment-text {
+  width: 68px;
+  height: 17px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 120%;
+  color: #2B2B2B;
+  order: 1;
+  flex-grow: 0;
+}
+
+input{
+  width: 90%;
+  padding: 0px 20px;
+  height: 36px;
+  border-radius: 100px;
+}
+
+input::placeholder{
+  font-size: 14px;
+}
+
+#share-text {
+  width: 40px;
+  height: 17px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 120%;
+  color: #2B2B2B;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+#like:hover,
+#comment:hover,
+#share:hover
+{
+  background-color:#8d8d8d49;
+
+}
+
+#follow:hover {
+  background-color:#0ba5e5;
+  cursor: pointer;
+}
+
+#comment-user-frame,
+.comment-user-frame
+{
+  position: absolute;
+  width: 36px;
+  height: 36px;
+  left: 12px;
+  top: 12px;
+  background: url("/profile-image.png");
+  border-radius: 100px;
+}
+
+#post-comment {
+  position: absolute;
+  width: 500px;
+  height: 56px;
+  left: 0px;
+  top: 726px;
+  background-color: #FCFCFC;
+
+  box-shadow: 2px 4px 32px 0px #00000029;
+  position: absolute;
+}
+
+.comment-wrapper {
+  
+  position: absolute;
+  width: 500px;
+  left: 0px;
+  top: 780px;
+  padding-bottom: 16px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 0 0 16px 16px;
+  box-shadow: 2px 4px 32px 0px #00000029;
+}
+
+#username {
+  position: absolute;
+  width: 79px;
+  height: 17px;
+  left: 80px;
+  top: 16px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 120%;
+  color: solid black;
+}
+
+#about {
+  position: absolute;
+  width: 148px;
+  height: 14px;
+  left: 80px;
+  top: 37px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 120%;
+  color: #8D8D8D;
+}
+
+#post-time {
+  position: absolute;
+  width: 50px;
+  height: 12px;
+  left: 80px;
+  top: 55px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 120%;
+  color: #BFBFBF;
+}
+
+#status {
+  position: absolute;
+  width: 260px;
+  height: 14px;
+  left: 24px;
+  top: 79px;
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 120%;
+  /* or 14px */
+  
+  
+  color: #2B2B2B;
+}
+#hashtag {
+  position: absolute;
+  width: 58px;
+  height: 14px;
+  left: 24px;
+  top: 97px;
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 1000;
+  font-size: 12px;
+  line-height: 120%;
+
+  /* or 14px */
+  
+  
+  color: #1151B8;
+}
+
+#follow {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  position: absolute;
+  width: 86px;
+  height: 26px;
+  left: 390px;
+  top: 32px;
+  background: #1151B8;
+  border-radius: 100px;
+}
+
+#follow-text {
+  width: 38px;
+  height: 18px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+  text-align: center;
+  color: #F7F9FD;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+span:hover {
+  cursor: pointer;
+}
+
+#post-option {
+  height: 45px;
+  width: 15px;
+  border-radius: 50px;
+  background-color: #000000;
+}
+
+#post-user-img:hover, #comment-user-frame, #username, #about, #post-time, #post-main{
+  cursor:pointer;
+}
+
+.button, .success {
+  width: 65px;
+  height: 26px;
+  border-radius: 9999px;
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 0.875;
+  border: none;
+  color: white;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  text-align: center;
+  justify-content: center;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.add-button {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  padding: 4px 32px;
+  gap: 8px;
+
+  position: absolute;
+  width: 121px;
+  height: 32px;
+  left: 369px;
+  top: 12px;
+
+  background: #1151B8;
+  border-radius: 100px;
+}
+
+.success {
+  background-color:#1151B8;
+}
+
+.success:hover {
+  background-color: #0ba5e5;
+}
+
+.delete {
+  background-color: #ec164c;
+}
+
+.delete:hover {
+  background-color: #f44572;
+}
+
+.add-button {
+  margin-left: 5px;
+}
+
+.comment {
+  margin-left: 28px;
+  margin-right: 8px;
+  margin-top: 8px;
+}
+
+.commented-text {
+  font-size: 18px;
+  display: flex;
+  padding-bottom: 8px;
+  padding-left: 30px;
+}
+
+.button-and-likes-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding-left: 35px;
+}
+
+.likes-text {
+  font-size: 13px;
+}
+
+.reply-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.hide-reply > .reply-wrapper {
+  display: none;
+}
+
+.comment-input{
+  box-sizing: border-box;
+  position: absolute;
+  width: 304px;
+  height: 36px;
+  left: 56px;
+  top: 12px;
+  background: #FFFFFF;
+  border: 1px solid #DFDFDF;
+  border-radius: 100px;
+}
+  
