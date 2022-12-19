@@ -197,7 +197,7 @@ input{
 }
 
 input::placeholder{
-  font-size: 13px;
+  font-size: 10px;
 }
 
 #share-text {
