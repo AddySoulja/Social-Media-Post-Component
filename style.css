@@ -1,4 +1,5 @@
 html, body {
+  width: 100vw;
   margin: 0;
   padding: 65px 0;
   display: flex;
@@ -35,7 +36,7 @@ html, body {
 
 #post-user-img{
   position: absolute;
-background-image: url("/profile-image.png");
+background-image: url("profile-image.png");
 width: 48px;
 height: 48px;
 left: 24px;
@@ -234,7 +235,7 @@ input::placeholder{
   height: 36px;
   left: 12px;
   top: 12px;
-  background: url("/profile-image.png");
+  background: url("profile-image.png");
   border-radius: 100px;
 }
 
